@@ -1,31 +1,7 @@
-{
-  "name": "dynamic-form-compiler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
+{ 
   "type": "module",
-  "directories": {
-    "doc": "docs",
-    "example": "examples",
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "vitest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@hookform/resolvers": "^5.9.1",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
-    "react-hook-form": "^7.90.0",
-    "zod": "^4.6.6"
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.5",
-    "@types/react": "^19.3.0",
-    "typescript": "^7.0.2",
-    "vitest": "^5.0.3"
-  }
+  "main": "./index.cjs",
+  "module": "./index.js",
+  "types": "./index.d.cts",
+  "sideEffects": false
 }
